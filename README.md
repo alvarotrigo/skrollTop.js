@@ -8,7 +8,7 @@
 [![PayPal Donate](https://img.shields.io/badge/donate-PayPal.me-ff69b4.svg)](https://www.paypal.me/alvarotrigo/9.95)
 &nbsp;&nbsp; **|**&nbsp;&nbsp; *0.4Kb gziped* &nbsp;&nbsp;**|**&nbsp;&nbsp; *Created by [@imac2](https://twitter.com/imac2)*
 
-- [Live demo](http://alvarotrigo.com/skrollTop/)
+- [Live demo](https://alvarotrigo.com/skrollTop/)
 
 ## Introduction
 
@@ -44,7 +44,7 @@ skrollTop.scrollTo({
        console.log("finished!");
     }
 });
-```
+``
 
 ## Stop animation at any moment
 You can stop the animation in course by calling:

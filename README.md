@@ -16,7 +16,7 @@
 Why another smooth scrolling library? Don't we have enough?
 Indeed we do! And some are great in fact! But I didn't need such a big amount of code for my simple purpose of using `scrollTop` programmatically. This is only 400 bytes minified!
 
-This library reduces the code to the bare minimum and still provids some nice features such as:
+This library reduces the code to the bare minimum and still provides some nice features such as:
 
 - Callback on finish.
 - Optionally scroll a different element than the window.

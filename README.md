@@ -9,6 +9,7 @@
 &nbsp;&nbsp; **|**&nbsp;&nbsp; *0.4Kb gziped* &nbsp;&nbsp;**|**&nbsp;&nbsp; *Created by [@imac2](https://twitter.com/imac2)*
 
 - [Live demo](https://alvarotrigo.com/skrollTop/)
+- [Blog article](https://alvarotrigo.com/blog/how-create-jquery-scrollTop-animation-without-jquery/)
 
 ## Introduction
 

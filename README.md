@@ -45,7 +45,7 @@ skrollTop.scrollTo({
        console.log("finished!");
     }
 });
-``
+```
 
 ## Stop animation at any moment
 You can stop the animation in course by calling:

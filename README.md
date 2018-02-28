@@ -13,7 +13,7 @@
 ## Introduction
 
 Why another smooth scrolling library? Don't we have enoguth?
-Indeed we do! And some are great in fact! But I didn't need such a big amout of code for my simple purpose of using `scrollTop` programatically. This is only 400bytes!
+Indeed we do! And some are great in fact! But I didn't need such a big amout of code for my simple purpose of using `scrollTop` programatically. This is only 400 bytes minified!
 
 This library reduces the code to the bary minimum and stills providing some nice features such as:
 
@@ -44,7 +44,7 @@ skrollTop.scrollTo({
        console.log("finished!");
     }
 });
-``
+```
 
 ## Stop animation at any moment
 You can stop the animation in course by calling:

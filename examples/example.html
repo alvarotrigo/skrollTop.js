@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>skrollTop.js - jQuery's scrollTop without jQuery</title>
+    <meta name="author" content="Alvaro Trigo Lopez" />
+
+    <style>
+    .box{
+      background: red;
+      margin: 20px;
+      padding: 20px;
+      font-size:20px;
+      color: white;
+    }
+    #scrollMe{
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      z-index:22;
+    }
+    </style>
+</head>
+<body>
+
+
+<button id="scrollMe">
+Click here
+</button>
+<div class="box">Start</div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box">End</div>
+
+
+<!-- Optional ! -->
+<script type="text/javascript" src="../easings.js"></script>
+<!-- end of optional -->
+
+<script type="text/javascript" src="../skrollTop.js"></script>
+<script type="text/javascript">
+document.getElementById('scrollMe').addEventListener('click', function(){
+    skrollTop.scrollTo({
+        to: 800,
+        easing: window.easings.easeOutBounce,
+        duration: 600,
+        callback: function() {
+           console.log("finished!");
+        }
+    });
+});
+
+/*
+Want to stop the animation at any moment ?
+skrollTop.stop();
+*/
+
+</script>
+</body>
+</html>

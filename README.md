@@ -11,5 +11,46 @@ Lightweight jQuery scrollTop animation without jQuery
 
 - [Live demo](http://alvarotrigo.com/skrollTop/)
 
+# Usage
 
+The basic usage would be:
+
+```javascript
+skrollTop.scrollTo({
+    to: 800
+});
+```
+
+Another example with all parameters would be as follow:
+
+```javascript
+skrollTop.scrollTo({
+    element: window,
+    to: 800,
+    easing: window.easings.easeOutBounce,
+    duration: 600,
+    callback: function() {
+       console.log("finished!");
+    }
+});
+``
+
+# Stop animation at any moment
+You can stop the animation in course by calling:
+
+```javascript
+skrollTop.stop();
+```
+
+# Using easing effects
+By default the library includes the `easeInOutCubic` easing effect.
+If you wish to make use of any other, you can make use of the vendor file [`easings.js`](https://github.com/alvarotrigo/skrollTop.js/blob/master/easings.js) and pass the easing function to the skroll library whenever you call it:
+
+ ```javascript
+skrollTop.scrollTo({
+    element: window,
+    to: 800,
+    easing: window.easings.easeOutBounce // <-- here
+});
+```
 

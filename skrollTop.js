@@ -41,7 +41,7 @@
        var callback = typeof params.callback !== 'undefined' ? params.callback : null;
        var easing = typeof params.easing !== 'undefined' ? params.easing : Math.easeInOutCubic;
 
-       var start = (window.pageYOffset || document.documentElement.scrollTop)  - (document.documentElement.clientTop || 0);
+       var start = element!==window ? element.scrollTop : (window.pageYOffset || document.documentElement.scrollTop)  - (document.documentElement.clientTop || 0);
        var change = to - start;
        var currentTime = 0;
        var increment = 16; //same amount of milliseconds as requestAnimationFrame

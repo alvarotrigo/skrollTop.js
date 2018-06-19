@@ -1,5 +1,5 @@
 /*!
- * skrollTop 0.0.1
+ * skrollTop 1.0.1
  * https://github.com/alvarotrigo/skrollTop.js
  * @license MIT
  *

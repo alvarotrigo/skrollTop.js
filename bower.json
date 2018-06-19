@@ -1,0 +1,29 @@
+{
+  "name": "skrolltop",
+  "homepage": "http://alvarotrigo.com/skrollTop.js/",
+  "authors": [
+    "Alvaro Trigo https://github.com/alvarotrigo"
+  ],
+  "description": "Lightweight jQuery scrollTop animation without jQuery",
+  "main": [
+    "dist/skrollTop.js",
+  ],
+  "keywords": [
+    "scroll",
+    "scrolltop",
+    "jquery",
+    "smooth-scrolling",
+    "smoothscroll",
+    "jquery-scrolltop",
+    "scrollto"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "examples"
+  ]
+}

@@ -37,11 +37,6 @@
 window.easings = {
     def: 'easeOutQuad',
     swing: function (t, b, c, d) {
-        console.log('t', t);
-        console.log('b', b);
-        console.log('c', c);
-        console.log('d', d);
-
         return window.easings[window.easings.def](t, b, c, d);
     },
     easeInQuad: function (t, b, c, d) {

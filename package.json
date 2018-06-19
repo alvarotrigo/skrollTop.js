@@ -1,0 +1,31 @@
+{
+  "name": "skrolltop",
+  "version": "1.0.1",
+  "description": "Lightweight jQuery scrollTop animation without jQuery",
+  "main": "skrollTop.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvarotrigo/skrollTop.js.git"
+  },
+  "keywords": [
+    "scrolltop",
+    "scroll",
+    "jquery",
+    "smooth-scrolling",
+    "smoothscroll",
+    "jquery-scrolltop",
+    "scrollto"
+  ],
+  "author": "Alvaro Trigo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alvarotrigo/skrollTop.js/issues"
+  },
+  "homepage": "https://github.com/alvarotrigo/skrollTop.js#readme"
+}

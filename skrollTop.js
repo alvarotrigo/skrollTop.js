@@ -51,7 +51,8 @@
             //in case we want to stop it from other function whenever we want
            if (g_activeAnimation) {
                currentTime += increment;
-               element.scrollTo(0, easing(currentTime, start, change, duration));
+               var easingValue = duration ? easing(currentTime, start, change, duration) : to;
+               element.scrollTo(0, easingValue);
 
                if (currentTime < duration) {
                    setTimeout(animateScroll, increment);

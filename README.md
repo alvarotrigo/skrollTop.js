@@ -29,10 +29,10 @@ This library reduces the code to the bare minimum and still provides some nice f
 
 ```shell
 // With bower
-bower intall skrolltop
+bower install skrolltop
 
 // With npm
-npm intall skrolltop
+npm install skrolltop
 ```
 
 ## Usage
